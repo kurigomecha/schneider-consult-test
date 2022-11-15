@@ -9,7 +9,40 @@ body {
 
 /* Header */
 
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+  background-color: lightgray;
+  height: 150px;
+}
+
+.company-logo-title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.logo-image {
+  height: 100px;
+}
+
+.title-name,
+.header-phone-number {
+  font-weight: bold;
+  font-size: 30px;
+  color: gray;
+  margin: 5px 0;
+}
+
+.header-phone-number p {
+  margin: 15px 0;
+}
+
 /* Menu */
+
+
 
 /* Slider */
 
