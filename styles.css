@@ -12,8 +12,9 @@ a{
    color: white;
 }
 
-a:hover {
+.menu-list a:hover {
    text-decoration:underline;
+   text-underline-position: under;
 }
 
 /* Header */
@@ -74,3 +75,26 @@ a:hover {
 /* Content */
 
 /* Footer */
+
+.footer {
+  display: flex;
+  background-color: gray;
+  color: white;
+  justify-content: space-between;
+  padding: 15px 10%;
+  height: 150px;
+}
+
+.footer a {
+  text-decoration:underline;
+  text-underline-position: under;
+}
+
+.footer-list {
+  list-style: none;
+  /* justify-self: center; */
+}
+
+.footer-underline {
+  text-decoration: underline;
+}
