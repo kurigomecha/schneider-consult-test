@@ -72,6 +72,11 @@ a{
 
 /* Slider */
 
+.slider img {
+  width: 100%;
+  height: auto;
+}
+
 /* Content */
 
 /* Footer */
