@@ -89,6 +89,8 @@ a{
   gap: 50px;
 }
 
+/* Content - News */
+
 .news {
   background-color: gray;
   color: white;
@@ -111,6 +113,25 @@ a{
 
 .recent-news p {
   padding-bottom: 20px;
+}
+
+/* Content - Main */
+
+.content-main {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+  padding: 10px;
+  width: 80%;
+}
+
+.about-company > * {
+  padding-bottom: 20px;
+}
+
+.what-we-do {
+  display: flex;
+  gap: 20px;
 }
 
 /* Footer */
